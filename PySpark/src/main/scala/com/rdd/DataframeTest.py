@@ -13,7 +13,7 @@ class DataframeTest():
             # List
             data = [('Ankit', 25), ('Jalfaizy', 22), ('Saurabh', 20), ('Bala', 26)]
 
-            # Create a schema for the dataframe
+            # Create a schema for the data frame
             schema = StructType([StructField('Name', StringType(), True), StructField('Age', IntegerType(), True)])
 
             # Convert list to RDD

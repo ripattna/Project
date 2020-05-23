@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     sc = SparkContext(conf=conf)
 
-    readRDD=sc.textFile("C:\Temp\Sample.txt")
+    readRDD = sc.textFile("C:\Project\Files\Input\Sample.txt")
 
     nonempty_lines = readRDD.filter(lambda x: len(x) > 0)
 
