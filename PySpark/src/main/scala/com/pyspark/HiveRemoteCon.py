@@ -22,7 +22,9 @@ spark.sql("create database if not exists demo")
 # spark.sql("drop table if exists src")
 spark.sql("show databases").show()
 spark.sql("use demo")
-#spark.sql("show databases").show()
-#spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
-#spark.sql("show tables").show()
-#spark.sql("LOAD DATA LOCAL INPATH 'examples/src/main/resources/kv1.txt' INTO TABLE src")
+
+# spark.sql("show databases").show()
+# spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
+# spark.sql("show tables").show()
+# spark.sql("LOAD DATA LOCAL INPATH 'examples/src/main/resources/kv1.txt' INTO TABLE src")
+#

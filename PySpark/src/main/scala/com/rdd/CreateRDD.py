@@ -19,9 +19,9 @@ class CreteRDD():
             # print("#######################################################################################")
 
             # Creating a RDD by transforming a existing RDD
-            newRDD = read_rdd.filter(lambda x: 'spark' in x)
-            filtered = newRDD.collect()
-            print("This is the filter Spark contains word:", newRDD.collect())
+            new_rdd = read_rdd.filter(lambda x: 'spark' in x)
+            filtered = new_rdd.collect()
+            print("This is the filter Spark contains word:", new_rdd.collect())
             sc.stop()
         except:
             print("Enable to create the RDD!")
