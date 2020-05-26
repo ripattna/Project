@@ -3,7 +3,7 @@ from pyspark import SparkContext, SparkConf
 conf = SparkConf().setAppName("appName").setMaster("local")
 sc = SparkContext(conf=conf)
 
-read_rdd = sc.textFile("C:\Project\Files\Input\Input.txt")
+read_rdd = sc.textFile("C:\\Project\\Files\\Input\\Input.txt")
 print("The element of the RDD is:", read_rdd.collect())
 
 # Creating a RDD by transforming a existing RDD

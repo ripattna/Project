@@ -1,5 +1,6 @@
 from pyspark import SparkConf, SparkContext
 
+
 def rdd_basic():
 
     conf = SparkConf().setAppName("appName").setMaster("local")
@@ -45,5 +46,6 @@ def rdd_basic():
 
     # Provide the sum of the array elements using reduce
     # print("The sum of the RDD:", rdd.union(newRdd).sum())
+
 
 rdd_basic()

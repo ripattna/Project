@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
 
+
 class Csv_demo:
     @staticmethod
     def csv_test():
@@ -20,6 +21,7 @@ class Csv_demo:
 
         except:
             print("Not able to read the csv file")
+
 
 Csv_demo.csv_test()
 

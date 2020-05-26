@@ -1,7 +1,7 @@
 from pyspark import SparkContext, SparkConf
 
 
-class CreteRDD():
+class CreteRDD:
     @staticmethod
     def rdd_test():
         try:
@@ -9,7 +9,6 @@ class CreteRDD():
             sc = SparkContext(conf=conf)
 
             # Creating a RDD by parallelize a collection
-
             first_rdd = sc.parallelize(["scala", "java", "python", "ruby", "ansible", "yml", "unix"])
             print(type(first_rdd))
             print("The element of the first RDD is:", first_rdd.collect())

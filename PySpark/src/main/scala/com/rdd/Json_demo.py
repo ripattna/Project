@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
 
+
 class Json_demo:
     @staticmethod
     def json_test():
@@ -36,6 +37,7 @@ class Json_demo:
 
         sql_df = spark.sql("select * from records")
         print(sql_df.show())
+
 
 Json_demo.json_test()
 
