@@ -6,7 +6,7 @@ if __name__ == "__main__":
     sc = SparkContext("local", "PySpark Word Count Example")
 
     # Read data from text file and split each line into words
-    text_file = sc.textFile("C:\\Project\\Files\\Input\\Input.txt")
+    text_file = sc.textFile("C:\\Project\\Files\\Input\\text\\Input.txt")
     # print(text_file.collect())
     # print(type(text_file))
     counts = text_file.flatMap(lambda line: line.split(" ")) \

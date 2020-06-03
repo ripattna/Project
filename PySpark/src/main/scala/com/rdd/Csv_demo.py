@@ -6,7 +6,7 @@ class Csv_demo:
     def csv_test():
         try:
             spark = SparkSession.builder.appName("test").getOrCreate()
-            data_df = spark.read.csv('C:/Project/Files/Input/Sample.csv', inferSchema=True, header=True)
+            data_df = spark.read.csv('C:\\Project\\Files\\Input\\csv\\Sample.csv', inferSchema=True, header=True)
             print(type(data_df))
             # print(dataDF.show())
             print(data_df.printSchema())

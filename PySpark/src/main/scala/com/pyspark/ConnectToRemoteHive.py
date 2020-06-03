@@ -5,10 +5,11 @@ from os.path import abspath
 # warehouse_location points to the default location for managed databases and tables
 # warehouse_location = abspath('hdfs://quickstart.cloudera:8020/user/hive/warehouse')
 
-'''spark = SparkSession \
+'''
+spark = SparkSession \
     .builder \
     .appName("Python Spark SQL Hive integration example") \
-    .config("hive.metastore.uris", "thrift://192.168.56.103:9083") \
+    .config("hive.metastore.uris", "thrift://192.168.56.101:9083") \
     .enableHiveSupport() \
     .getOrCreate()'''
 

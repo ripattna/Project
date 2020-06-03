@@ -26,7 +26,7 @@ if __name__ == "__main__":
     else:
         print("Table not found")
 
-    # spark.sql("create database if not exists demo")
+    spark.sql("create database if not exists amit_database")
     # spark.sql("drop table if exists src")
     # spark.sql("show database").show()
     # spark.sql("use demo")
