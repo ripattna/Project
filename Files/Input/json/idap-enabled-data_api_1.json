@@ -1,0 +1,134 @@
+{
+   "id": "bedd5b8b-6a48-4d8d-b11c-e1e9c914f213",
+   "systemName": "esp_business_application",
+   "displayName": "ESP Business Application",
+   "description": "Contains the Business Application data in ESP",
+   "state": "ENABLED",
+   "createdTime": 1589977316222,
+   "sources": [
+      {
+         "datasource": {
+            "@type": "DerivedDatasource",
+            "id": "ce532534-eabe-4ac3-90e1-36629a44f5b7",
+            "name": "ESPADM.ESP_BA_INFO",
+            "encrypted": false,
+            "compressed": false,
+            "sourceForFeeds": [
+               {
+                  "id": "bedd5b8b-6a48-4d8d-b11c-e1e9c914f213",
+                  "systemName": "esp_business_application",
+                  "allowIndexing": false
+               }
+            ],
+            "properties": {
+               "jcr:created": 1538026627591,
+               "jcr:createdBy": "dladmin",
+               "Source Table": "ESPADM.ESP_BA_INFO",
+               "jcr:primaryType": "tba:properties"
+            },
+            "datasourceType": "DatabaseDatasource"
+         }
+      }
+   ],
+   "destinations": [
+      {
+         "datasource": {
+            "@type": "DerivedDatasource",
+            "id": "4601d5a4-8b4f-46a8-917d-9e2224752e0d",
+            "name": "infrastructure_enablement_platforms.esp_business_application",
+            "encrypted": false,
+            "compressed": false,
+            "destinationForFeeds": [
+               {
+                  "id": "bedd5b8b-6a48-4d8d-b11c-e1e9c914f213",
+                  "systemName": "esp_business_application",
+                  "allowIndexing": false
+               }
+            ],
+            "properties": {
+               "feed": "esp_business_application",
+               "Target schema": "infrastructure_enablement_platforms",
+               "jcr:created": 1589977316299,
+               "jcr:createdBy": "idap-ten-iep.gen",
+               "jcr:primaryType": "tba:properties",
+               "category": "infrastructure_enablement_platforms",
+               "Target table": "esp_business_application"
+            },
+            "datasourceType": "HiveDatasource"
+         }
+      }
+   ],
+   "properties": {
+      "jcr:created": "2020-05-20T12:38:10.338Z",
+      "nifi:registration:hdfsFolders": "/idap/idap-prod/model.db/infrastructure_enablement_platforms\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application/feed\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application/valid\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application/invalid\n/idap/idap-prod/model.db/infrastructure_enablement_platforms\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application\n/idap/idap-prod/model.db/infrastructure_enablement_platforms/esp_business_application/profile\n/idap/idap-prod/app/warehouse/infrastructure_enablement_platforms/\n/idap/idap-prod/app/warehouse/infrastructure_enablement_platforms/esp_business_application",
+      "jcr:createdBy": "siadp.gen",
+      "nifi:registration:hiveSchema": "infrastructure_enablement_platforms",
+      "jcr:primaryType": "tba:properties",
+      "nifi:registration:hiveTableNames": "esp_business_application_feed\nesp_business_application_valid\nesp_business_application_invalid\nesp_business_application_profile\nesp_business_application"
+   },
+   "category": {
+      "id": "8eeb4a92-f859-4aa3-b868-f448ba71d52c",
+      "systemName": "infrastructure_enablement_platforms",
+      "displayName": "Infrastructure Enablement Platforms",
+      "description": "A set of tools and databases that are used to manage Cisco IT-related Configuration data and network configuration.",
+      "userProperties": {
+         "serviceOwner": "Radhika Chagarlamudi",
+         "datalakeAccountID": "Unknown",
+         "serviceName": "Infrastructure Enablement Platforms"
+      },
+      "collectedUserProperties": "serviceOwner=Radhika Chagarlamudi,datalakeAccountID=Unknown,serviceName=Infrastructure Enablement Platforms"
+   },
+   "currentInitStatus": {
+      "state": "SUCCESS",
+      "timestamp": 1589978298705
+   },
+   "allowIndexing": false,
+   "currentHistoryReindexingStatus": {
+      "historyReindexingState": "NEVER_RUN",
+      "lastModifiedTimestamp": 1589977316210
+   },
+   "allowedActions": {
+      "actions": [
+         {
+            "systemName": "accessFeed",
+            "actions": [
+               {
+                  "systemName": "editFeedSummary"
+               },
+               {
+                  "systemName": "accessFeedDetails",
+                  "actions": [
+                     {
+                        "systemName": "editFeedDetails"
+                     },
+                     {
+                        "systemName": "deleteFeed"
+                     },
+                     {
+                        "systemName": "enableFeed"
+                     },
+                     {
+                        "systemName": "exportFeed"
+                     }
+                  ]
+               },
+               {
+                  "systemName": "accessFeedOperations"
+               },
+               {
+                  "systemName": "changeFeedPermissions"
+               }
+            ]
+         }
+      ]
+   },
+   "userProperties": {
+      "dataPrivacyClassification": "Restricted",
+      "datasetState": "Published",
+      "datasetPriority": "P1",
+      "dataOwnerSupportGroupNameContact": "gis-esp",
+      "datasetRetentionPeriod": "30",
+      "datasetType": "Inventory data"
+   },
+   "collectedUserProperties": "dataPrivacyClassification=Restricted,datasetState=Published,datasetPriority=P1,dataOwnerSupportGroupNameContact=gis-esp,datasetRetentionPeriod=30,datasetType=Inventory data"
+}

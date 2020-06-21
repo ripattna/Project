@@ -1,5 +1,7 @@
-from logging import getLogger
-from pyspark.sql import SparkSession
+# Configure spark variables
+from pyspark.context import SparkContext
+from pyspark.sql.context import SQLContext
+from pyspark.sql.session import SparkSession
 from os.path import abspath
 
 if __name__ == "__main__":
@@ -34,5 +36,5 @@ if __name__ == "__main__":
     # spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
     # spark.sql("""show tables in demo""").show()
     # spark.sql("drop table demo.employee")
-    # spark.sql("LOAD DATA LOCAL IN PATH 'examples/src/main/resources/kv1.txt' INTO TABLE src")
+    # spark.sql("LOAD DATA LOCAL INPATH 'examples/src/main/resources/kv1.txt' INTO TABLE src")
     # ...
