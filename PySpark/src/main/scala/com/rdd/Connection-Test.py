@@ -1,18 +1,22 @@
+import json
 import requests
-req = requests.get("https://www.datacamp.com/")
-print(req.status_code)
-print(req.headers)
+struct = {}
 
+url = 'https://idl-prd-edge5.cisco.com/proxy/v1/feedmgr/feeds'
+pload = {'username': 'siadp.gen', 'password': 'Ci$Co#123'}
 
-'''
-import urllib.request
-# open a connection to a URL using urllib
-webUrl = urllib.request.urlopen('https://www.youtube.com/user/guru99com')
+response = requests.get(url, data=pload, verify=False)
 
-# Get the result code and print it
-print("result code: " + str(webUrl.getcode()))
+if response.status_code == 200:
+    print("URL is accessible:", response.status_code)
+else:
+    print("URL is not accessible:", response.status_code)
 
-# read the data from the URL and print it
-data = webUrl.read()
-print(data)
-'''
+new = response.content.decode('utf-8')
+print(new)
+
+'''try:
+    # data = r.json()
+    print(request.content.decode('utf-8').replace('\0', ''))
+except ValueError:
+    print("Response content is not valid JSON")'''
