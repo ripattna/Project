@@ -15,4 +15,5 @@ if __name__ == "__main__":
               " LINES TERMINATED BY '\\n' ")
     spark.sql("show tables").show()
     spark.sql("LOAD DATA LOCAL INPATH 'file:///C:/Project/Files/Input/text/Src_Table.txt' INTO TABLE src")
-    spark.sql("select * from src").show()'''
+    spark.sql("select * from src").show()
+    '''

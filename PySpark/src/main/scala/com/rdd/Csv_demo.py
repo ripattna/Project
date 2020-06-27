@@ -19,10 +19,11 @@ class Csv_demo:
             print(type(data_df))
             print(type(sql_df))
 
-        except:
+        except ValueError:
             print("Not able to read the csv file")
 
 
-Csv_demo.csv_test()
+if __name__ == "__main__":
+    Csv_demo.csv_test()
 
 
