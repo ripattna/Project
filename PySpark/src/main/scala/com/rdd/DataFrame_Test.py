@@ -26,8 +26,9 @@ class DataFrame_Test:
             print(df.describe())
             print(df.describe().show())
             df.show()
-        except:
+        except ValueError:
             Exception("Something went wrong")
 
 
-DataFrame_Test.data_frame_function()
+if __name__ == "__main__":
+    DataFrame_Test.data_frame_function()

@@ -39,7 +39,8 @@ class Json_demo:
         print(sql_df.show())
 
 
-Json_demo.json_test()
+if __name__ == "__main__":
+    Json_demo.json_test()
 
 
 

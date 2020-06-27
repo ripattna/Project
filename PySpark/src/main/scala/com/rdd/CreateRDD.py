@@ -26,8 +26,9 @@ class CreteRDD:
             # filter_rdd = new_rdd.collect()
             print("This is the filter Spark contains word:", new_rdd.count())
             sc.stop()
-        except:
+        except ValueError:
             print("Enable to create the RDD!")
 
 
-CreteRDD.rdd_test()
+if __name__ == "__main__":
+    CreteRDD.rdd_test()

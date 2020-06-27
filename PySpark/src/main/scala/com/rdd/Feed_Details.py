@@ -30,7 +30,7 @@ class Feed_Detail:
 
         # Join the two DataFrame
         sql_df3 = sql_df1.join(sql_df2, on=['id'], how='inner')
-        print(sql_df3.show(10))
+        print(sql_df3.show())
 
         # Storing the query result to a csv file.
         # sql_df3.write.csv("C:\\Project\\Files\\Output\\idap-data_2")
