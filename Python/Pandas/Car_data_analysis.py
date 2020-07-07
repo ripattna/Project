@@ -1,6 +1,8 @@
 import pandas as pd
-# read dataset and store into dataframe
-cars = pd.read_csv("C:\Project\Python\cars.csv")
+import matplotlib
+import matplotlib.pylab as plt
+# Read dataset and store into dataframe
+cars = pd.read_csv("C:\\Project\\Python\\cars.csv")
 '''Printing the car data set
 print("The hard of Car Dataset:'\n' ", + cars.head(),"'\n'","The tail of car Dataset:'\n'", +  cars.tail())
 #Converting the data type of mpg to string'''
@@ -27,7 +29,7 @@ cars = cars.rename(columns={'Unnamed: 0': 'model'})
 # Feeling the null values with mean of the column
 cars.qsec = cars.qsec.fillna(cars.qsec.mean())
 # print(cars.head())
-# find the corelation matrix
+# find the co-relation matrix
 df = cars[['mpg', 'cyl', 'disp', 'hp', 'drat', 'wt', 'qsec', 'vs', 'am', 'gear', 'carb']].corr()
 # print(df)
 # Converting the datatype of mpg from string to float
@@ -54,9 +56,8 @@ print("Select the first 7 records from mpg to qsec column:'\n'",cars.loc[:7,"mpg
 # Filter records with more than 6 cylinders
 # cyld = cars['cyl'] > 6
 # print(cyld)
-#######################Data Visualization##########
-import matplotlib
-import matplotlib.pylab as plt
+# ######################Data Visualization##########
+
 # %matplotlib inline
 y1 = cars['hp']
 x1 = range(32)

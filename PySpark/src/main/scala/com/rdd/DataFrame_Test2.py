@@ -23,8 +23,9 @@ schema = StructType([
 
 # Convert list to RDD
 rdd = spark.sparkContext.parallelize(data)
-
+4444444
 # Create data frame
 df = spark.createDataFrame(rdd, schema)
 print(df.schema)
 df.show()
+

@@ -32,14 +32,14 @@ class SocketConsole(object):
     def finalize(self):
         self.desc = None
 
-    def _run(self):
+    def _run(self, __builtin__=None):
         try:
             console = InteractiveConsole(self.locals)
             # __builtins__ may either be the __builtin__ module or
             # __builtin__.__dict__ in the latter case typing
             # locals() at the backdoor prompt spews out lots of
             # useless stuff
-            import __builtin__
+            import builtins
             console.locals["__builtins__"] = __builtin__
             console.interact(banner=self.banner)
         except SystemExit:  # raised by quit()
@@ -90,8 +90,8 @@ def main_loop(socket_filename):
         sockobj = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
         sockobj.bind(socket_filename)
         sockobj.listen(5)
-    except Exception, e:
-        log.exception('Failed to init backdoor socket %s', e)
+    except Exception:
+        log.exception('Failed to init backdoor socket %s')
         return
 
     while True:

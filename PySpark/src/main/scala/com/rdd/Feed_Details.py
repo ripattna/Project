@@ -8,7 +8,7 @@ class Feed_Detail:
         # Create Spark Session and initialize it
         spark = SparkSession.builder.appName("joins_example").getOrCreate()
 
-        # Reading the first API json file. (URL:https://idl-prd-edge5.cisco.com/proxy/v1/feedmgr/feeds)
+        # Reading the first API json file. ("https://idl-prd-edge5.cisco.com/proxy/v1/feedmgr/feeds")
         data_df1 = spark.read.option("multiline", "true").json("C:\\Project\\Files\\Input\\json\\idap-enabled-data_api_1.json")
 
         # Creating a Temp View from the DataFrame

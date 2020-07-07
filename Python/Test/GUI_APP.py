@@ -4,10 +4,10 @@ import os
 root1=tk.Tk()
 apps=[]
 if os.path.isfile('save.txt'):
-    with open('save.txt','r') as f:
+    with open('save.txt', 'r') as f:
         tempApps=f.read()
         tempApps=tempApps.split(',')
-        apps=[x for x in tempApps if x.strip()]
+        apps = [x for x in tempApps if x.strip()]
 def addApp():
     filename=filedialog.askopenfilename(initialdir="/",title="Select File",
                                         filetypes=(("executables","*.exe"),("all files","*.*")))

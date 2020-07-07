@@ -1,4 +1,4 @@
-#Creating a DataFrame using numpy array
+# Creating a DataFrame using numpy array
 import numpy as np
 import pandas as pd
 num = np.array([[5000,4000],['John','James']])
