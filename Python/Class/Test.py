@@ -1,17 +1,18 @@
 class Computer:
-    #pass
+    # pass
     def __init__(self):
-        self.name=input("Enter the name of the person:")
-        self.age=int(input("Enter the age of the person: "))
+        self.name = input("Enter the name of the person:")
+        self.age = int(input("Enter the age of the person: "))
 
     def update(self):
-        self.age=26
+        self.age = 26
 
-    def compare(self,other):
-        if self.age==other.age:
+    def compare(self, other):
+        if self.age == other.age:
             return True
         else:
             return False
+
 
 c1 = Computer()
 c2 = Computer()
