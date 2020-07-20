@@ -7,9 +7,11 @@ class Csv_demo:
         try:
             spark = SparkSession.builder.appName("test").getOrCreate()
             data_df = spark.read.csv('C:\\Project\\Files\\Input\\csv\\Sample.csv', inferSchema=True, header=True)
-            print(type(data_df))
-            # print(dataDF.show())
-            print(data_df.printSchema())
+
+            print('The type of csv file data is:', type(data_df))
+
+            print(data_df.show())
+            print("The schema is:", data_df.printSchema())
 
             # Creating a Temp View from the data_frame
             data_df.createOrReplaceTempView("records")
