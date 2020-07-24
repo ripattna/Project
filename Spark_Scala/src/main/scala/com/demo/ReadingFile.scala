@@ -3,12 +3,15 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 object ReadingFile {
  def main(args:Array[String]): Unit={
+
    //Set the log level to print the error
    Logger.getLogger( "org").setLevel(Level.ERROR)
+
    //Create Conf Object
    val conf=new SparkConf()
    conf.setMaster("local")
    conf.setAppName("ReadingFile")
+
    //Creating the SparkContext Obj
    val sc=new SparkContext(conf)
    sc.setLogLevel("ERROR")
