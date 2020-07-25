@@ -1,7 +1,9 @@
 package com.demo
 
 import org.apache.spark.{SparkConf,SparkContext}
+
 object ChargeTest {
+
   def main(args: Array[String]): Unit = {
 
     //SparkConf for Initialization

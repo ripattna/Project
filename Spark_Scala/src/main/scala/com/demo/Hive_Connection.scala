@@ -12,8 +12,6 @@ object Hive_Connection {
     import org.apache.log4j._
     Logger.getLogger("log").setLevel(Level.ERROR)
 
-    //import spark.sql
-
     spark.sql("create database if not exists temp_db")
     spark.sql("show databases").show()
   }
