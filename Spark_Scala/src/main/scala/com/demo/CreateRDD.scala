@@ -1,14 +1,18 @@
 package com.demo
 
-import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 object CreateRDD {
 
   def main(args: Array[String]): Unit = {
-    Logger.getLogger( "org").setLevel(Level.ERROR)
+    // Creating Conf Object
     val conf = new SparkConf().setMaster("local").setAppName("Simple Application")
     val sc = new SparkContext(conf)
+
+    //Creating log level
+    import org.apache.log4j._
+    Logger.getLogger( "org").setLevel(Level.ERROR)
+    Logger.getLogger( "org").setLevel(Level.ERROR)
     sc.setLogLevel("ERROR")
 
     //RDD can be created in 3 ways below are the example:

@@ -1,6 +1,4 @@
-from pyspark.context import SparkContext
 from pyspark.sql.session import SparkSession
-
 
 if __name__ == "__main__":
 

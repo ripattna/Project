@@ -1,5 +1,6 @@
 package com.demo
 
+import org.apache.hadoop.yarn.util.RackResolver
 import org.apache.spark.{SparkConf, SparkContext}
 
 object WordCount {
@@ -12,7 +13,12 @@ object WordCount {
 
     //Creating log level
     import org.apache.log4j._
-    Logger.getLogger("log").setLevel(Level.ERROR)
+    import org.apache.log4j.{Level, Logger}
+    Logger.getLogger(classOf[RackResolver]).getLevel
+    Logger.getLogger("org").setLevel(Level.OFF)
+    Logger.getLogger("akka").setLevel(Level.OFF)
+    Logger.getLogger("org").setLevel(Level.ERROR)
+    Logger.getLogger("akka").setLevel(Level.ERROR)
     sc.setLogLevel("ERROR")
 
     val readRDD = sc.textFile("C:\\Project\\Files\\Input\\text\\Sample.txt")
