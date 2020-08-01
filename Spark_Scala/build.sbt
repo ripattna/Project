@@ -1,8 +1,9 @@
 name := "Spark_Scala"
 version := "0.1"
-// scalaVersion := "2.13.2"
-scalaVersion := "2.12.10"
+scalaVersion := "2.11.12"
+
 // https://mvnrepository.com/artifact/org.apache.spark/spark-core
-libraryDependencies += "org.apache.spark" %% "spark-core" % "3.0.0-preview2"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.6"
+
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.0.0-preview2"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.6"

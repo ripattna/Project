@@ -1,7 +1,6 @@
 package com.control_statements;
 
-public class HelloWorld
-{
+public class HelloWorld {
     public static void main(String[] args)
     {
         int a=10;
