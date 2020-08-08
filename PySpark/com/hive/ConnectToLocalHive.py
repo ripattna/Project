@@ -7,34 +7,50 @@ from os.path import abspath
 if __name__ == "__main__":
 
     # warehouse_location points to the default location for managed databases and tables
-    warehouse_location = abspath('spark-warehouse')
+    # warehouse_location = abspath('spark-warehouse')
 
     # Creating SparkSession
     spark = SparkSession \
         .builder \
-        .appName("Python Spark SQL Hive integration example") \
-        .config("demo", warehouse_location) \
+        .master("local[*]") \
+        .appName("Python Spark SQL Hive integration") \
+        .config("spark.sql.warehouse.dir", "C:\\Project\\Files\\Hive") \
         .enableHiveSupport() \
         .getOrCreate()
 
-    # Setting the current database to demo
-    spark.catalog.setCurrentDatabase("demo")
+    # Create Database demo
+    spark.sql("create database if not exists Demo")
 
-    table_list = spark.sql("""show tables in demo""")
-    table_name = table_list.filter(table_list.tableName == "src").collect()
+    # Listing all the Databases
+    spark.sql("show databases").show()
+
+    # Setting the current database to Demo Database
+    spark.catalog.setCurrentDatabase("Demo")
+
+    table_list = spark.sql("show tables in Demo")
+    table_name = table_list.filter(table_list.tableName == "movies").collect()
 
     if len(table_name) > 0:
-        print("Table src is present in Demo database")
+        print("Table movies is present in Demo database")
     else:
-        print("Table not found")
+        print("Table not found,Creating the table")
+        spark.sql('create table movies \
+         (Film string,Genres string,Lead_Studio string,Audition_Score int,'
+                  'Profit string,Rotten string,Year int) \
+         row format delimited fields terminated by "," \
+         LINES TERMINATED BY "\n" \
+         stored as TEXTFILE')
 
-    spark.sql("create database if not exists amit_database")
-    # spark.sql("drop table if exists src")
-    # spark.sql("show database").show()
-    # spark.sql("use demo")
-    # spark.sql("show databases").show()
+    spark.sql("show tables").show()
+
+    # print("Movies table data before the data load:")
+    # spark.sql("select * from movies").show()
+
+    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/Movie_1.txt' INTO TABLE movies")
+
+    spark.sql("select * from movies").show()
+    spark.sql("drop table movies")
+
     # spark.sql("CREATE TABLE src(key INT, value STRING) USING hive")
-    # spark.sql("""show tables in demo""").show()
-    # spark.sql("drop table demo.employee")
-    # spark.sql("LOAD DATA LOCAL INPATH 'examples/src/main/resources/kv1.txt' INTO TABLE src")
+    # spark.sql("insert into movies (movieId, title,genres) VALUES (12,"xyz","abc")
     # ...
