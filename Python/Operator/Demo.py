@@ -12,10 +12,12 @@ SOCK_FILE_TEMPLATE = '%(dir)s/%(prefix)s-%(pid)d.socket'
 
 log = getLogger(__name__)
 
+
 class SocketConsole(object):
-    '''
+    """
     Ported form :eventlet.backdoor.SocketConsole:.
-    '''
+    """
+
     def __init__(self, locals, conn, banner=None):  # pylint: diable=W0622
         self.locals = locals
         self.desc = _fileobject(conn)
@@ -47,6 +49,7 @@ class SocketConsole(object):
         finally:
             self.switch_out()
             self.finalize()
+
 
 class _fileobject(socket._fileobject):
     def write(self, data):

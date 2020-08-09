@@ -1,5 +1,5 @@
-a=int(input("Enter the value for for A:"))
-b=int(input("Enter the value for for B:"))
+a = int(input("Enter the value for for A:"))
+b = int(input("Enter the value for for B:"))
 if b > a:
     print("B is grater than A")
 elif a == b:

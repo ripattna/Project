@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/hive/TestPy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium/Selenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/Src_Table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/Src_Table.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/HiveExternalTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/HiveExternalTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/hive/derby.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Operator/AssignmentOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Operator/AssignmentOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Operator/Bitwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Operator/Bitwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Operator/Comparision.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Operator/Comparision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Operator/HelloWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Operator/HelloWord.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.Csv_demo">
+  <component name="RunManager" selected="Python.TestPy">
     <configuration name="ConnectToLocalHive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PySpark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Csv_demo" />
         <item itemvalue="Python.TestPy" />
+        <item itemvalue="Python.Csv_demo" />
         <item itemvalue="Python.ConnectToLocalHive" />
         <item itemvalue="Python.HiveExternalTable" />
       </list>
@@ -208,22 +205,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596261799300" />
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1596812936073">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1596949502755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596812936073" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1596812936073">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596949502755" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1596949502755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596812936073" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1596812936072">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596949502755" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1596949502754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596812936072" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1596812936073">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596949502754" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1596949502755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596812936073" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596949502755" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1596261800969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
