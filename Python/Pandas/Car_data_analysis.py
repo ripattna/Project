@@ -6,7 +6,7 @@ cars = pd.read_csv("C:\\Project\\Files\\Input\\csv\\cars.csv")
 '''Printing the car data set
 print("The hard of Car Dataset:'\n' ", + cars.head(),"'\n'","The tail of car Dataset:'\n'", +  cars.tail())
 #Converting the data type of mpg to string'''
-cars.mpg=cars.mpg.astype(str)
+cars.mpg = cars.mpg.astype(str)
 '''print(cars)systemctl restart systemd-logind.service
 print("Printing the cars mpg:'\n'",cars.mpg)
 print("The cars mpg type:'\n'",type(cars.mpg))
