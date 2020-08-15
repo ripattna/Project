@@ -16,7 +16,6 @@ object HdfsOperation {
     sc.setLogLevel("ERROR")
 
     println("Hello World")
-    //val hdfs_dir = FileSystem.get(new URI("http://localhost:9870/"), new Configuration())
-    //println(hdfs_dir)
+
   }
 }
