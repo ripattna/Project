@@ -5,6 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object RDDTransformation {
   def main(args: Array[String]): Unit = {
 
+    // Create Conf Object and to initializing the SparkContext
     val conf= new SparkConf().setMaster("local").setAppName("RDDTransformation")
     val sc = new SparkContext(conf)
 

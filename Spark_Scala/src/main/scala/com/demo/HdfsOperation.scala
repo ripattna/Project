@@ -5,7 +5,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object HdfsOperation {
   def main(args: Array[String]): Unit = {
 
-    // Creating Conf Object and SparkContext
+    // Create Conf Object and to initializing the SparkContext
     val conf = new SparkConf().setAppName("HDFSOperation").setMaster("local[*]")
     val sc = new SparkContext(conf)
 

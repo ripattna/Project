@@ -20,98 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_googlecode_javaewah_JavaEWAH_0_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__com_twitter_parquet_hadoop_bundle_1_6_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__commons_dbcp_commons_dbcp_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__commons_pool_commons_pool_1_5_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__javax_jdo_jdo_api_3_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__javolution_javolution_5_5_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__log4j_apache_log4j_extras_1_2_17_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__net_hydromatic_eigenbase_properties_1_1_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_antlr_ST4_4_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_antlr_antlr_runtime_3_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_antlr_stringtemplate_3_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_calcite_calcite_avatica_1_2_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_calcite_calcite_core_1_2_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_calcite_calcite_linq4j_1_2_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_derby_derby_10_12_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_avro_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_hive_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_4_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_thrift_libfb303_0_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_thrift_libthrift_0_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_datanucleus_datanucleus_api_jdo_3_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_datanucleus_datanucleus_core_3_2_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_datanucleus_datanucleus_rdbms_3_2_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_iq80_snappy_snappy_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_jodd_jodd_core_3_5_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_spark_project_hive_hive_exec_1_2_1_spark2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_spark_project_hive_hive_metastore_1_2_1_spark2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__stax_stax_api_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Csv_Operation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/GetRevenuePerOrder.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_2_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_2_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_10_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/modules/Spark_Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/modules/Spark_Scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$57163cdf051b78782fc7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$57163cdf051b78782fc7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$57163cdf051b78782fc7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$59d08d6011f723727f01$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$59d08d6011f723727f01.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$59d08d6011f723727f01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$6531a2ec90988333c0f0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$6531a2ec90988333c0f0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$6531a2ec90988333c0f0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$72db13cc590e1e04366d$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$72db13cc590e1e04366d.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$72db13cc590e1e04366d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$8742d673bb38fa43d560$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$8742d673bb38fa43d560.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$8742d673bb38fa43d560.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$94cc02ed79c0594170c7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$94cc02ed79c0594170c7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/config-classes/$94cc02ed79c0594170c7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/ChargeTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/ChargeTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/ChargeTest_Sample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/CreateRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/CreateRDD.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/FirstSparkProgram.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/FirstSparkProgram.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/HdfsOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/HdfsOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/update/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/JoinExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/LoadData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/LoadData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Map_FlatMap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Map_FlatMap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/RDDTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/RDDTransformation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/ReadingFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/ReadingFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/Sql_Joins.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/demo/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ChargeTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ChargeTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ChargeTest_Sample$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ChargeTest_Sample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ChargeTest_Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/CreateRDD$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$$typecreator13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$$typecreator13$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$$typecreator5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/JoinExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/LoadData$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/LoadData$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Map_FlatMap$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/RDDTransformation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ReadingFile$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/ReadingFile$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Sql_Joins$$typecreator13$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Sql_Joins$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Sql_Joins$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/Sql_Joins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/demo/WordCount$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

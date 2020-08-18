@@ -7,7 +7,7 @@ object WordCount {
 
   def main(args: Array[String]): Unit = {
 
-    // Creating Conf Object and SparkContext
+    // Create Conf Object and to initializing the SparkContext
     val conf = new SparkConf().setAppName("WordCount").setMaster("local")
     val sc = new SparkContext(conf)
 
@@ -15,16 +15,14 @@ object WordCount {
     import org.apache.log4j._
     import org.apache.log4j.{Level, Logger}
     Logger.getLogger(classOf[RackResolver]).getLevel
-    Logger.getLogger("org").setLevel(Level.OFF)
-    Logger.getLogger("akka").setLevel(Level.OFF)
     Logger.getLogger("org").setLevel(Level.ERROR)
     Logger.getLogger("akka").setLevel(Level.ERROR)
     sc.setLogLevel("ERROR")
 
-    val readRDD = sc.textFile("C:\\Project\\Files\\Input\\text\\Sample.txt")
-    val countRDD = readRDD.flatMap(line => line.split(" ")).map(word => (word,1)).reduceByKey(_+_)
-    print(countRDD.count())
+    val readRDD = sc.textFile("C:\\Project\\Files\\Input\\text\\Input.txt")
+    val countRDD = readRDD.flatMap(line => line.split(" ")).
+                  map(word => (word,1)).reduceByKey(_+_)
+    println("The work count is:" + countRDD.count())
    // countRDD.saveAsTextFile("C:\\Project\\Files\\Output\\New1")
-    countRDD.saveAsTextFile("")
   }
 }

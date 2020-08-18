@@ -6,9 +6,9 @@ object LoadData {
 
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
+    // Create Conf Object and to initializing the SparkContext
     // local[*] will access all core of your machine
-    // Create Spark Context
+    val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
     val sc = new SparkContext(conf)
 
     //Set the log level to print the error

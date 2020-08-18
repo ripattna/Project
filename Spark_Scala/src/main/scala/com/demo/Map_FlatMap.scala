@@ -7,6 +7,7 @@ object Map_FlatMap {
 
   def main(args: Array[String]): Unit = {
 
+    // Create Conf Object and to initializing the SparkContext
     val conf= new SparkConf().setMaster("local").setAppName("Map_FlatMap")
     val sc = new SparkContext(conf)
 

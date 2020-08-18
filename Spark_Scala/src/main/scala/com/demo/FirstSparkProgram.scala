@@ -6,7 +6,7 @@ object FirstSparkProgram {
 
   def main(args: Array[String]): Unit = {
 
-    // Creating Conf Object
+    // Create Conf Object and to initializing the SparkContext
     val conf=new SparkConf().setMaster("local").setAppName("FirstSparkProgram")
     val sc=new SparkContext(conf)
 

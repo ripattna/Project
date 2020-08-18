@@ -5,7 +5,8 @@ import org.apache.spark.SparkConf
 object CreateRDD {
 
   def main(args: Array[String]): Unit = {
-    // Creating Conf Object
+
+    // Create Conf Object and to initializing the SparkContext
     val conf = new SparkConf().setMaster("local").setAppName("Simple Application")
     val sc = new SparkContext(conf)
 
