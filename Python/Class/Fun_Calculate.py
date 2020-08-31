@@ -1,15 +1,11 @@
 global a
 a = 1000
-'''def calculate(a,b):
-    print("The Sum:", a+b)
-    print("The Difference:", a-b)
-    print("The Product:", a*b ) 
-calculate(200,10)'''
+print("Value of A:", a)
 
 
 def fun1():
     global a
-    a = 222
+    a = 123
     print("This is the value of Fun1:", a)
 
 
@@ -29,4 +25,4 @@ def func3():
 
 
 func3()
-print("This is outside of function!")
+print("Out side of function value:", a)
