@@ -5,9 +5,9 @@ class Robot:
         self.weight = weight
 
     def introduce_self(self):
-        print("My name is: " + self.name)
-        print("My color is: " + self.color)
-        print("My weight is:" + str(self.weight))
+        print("Name is: " + self.name)
+        print("Color is: " + self.color)
+        print("Weight is:" + str(self.weight))
 
 
 r_obj1 = Robot("Nisan", "Brown", 70)

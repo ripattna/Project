@@ -20,7 +20,8 @@ class Computer:
         self.ram = ram
 
     def config(self):
-        print("Config is", self.cpu, self.ram)
+        print("Configuration of CPU:" + self.cpu)
+        print("Configuration of RAM:", self.ram)
 
 
 comp1 = Computer('i5', '8GB')

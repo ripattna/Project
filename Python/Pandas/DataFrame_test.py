@@ -15,7 +15,7 @@ df_new1 = pd.DataFrame(series)
 print(df_new1)
 # Creating a DataFrame using numpy array
 
-# ####     Numpy ##############
+############### Numpy ##############
 num = np.array([[5000, 4000], ['John', 'James']])
 df = pd.DataFrame({'name': num[1], 'salary': num[0]})
 print(num)

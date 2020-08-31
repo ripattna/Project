@@ -18,3 +18,4 @@ s1 = Student()
 # s2=Student()
 
 print(s1.avg())
+
