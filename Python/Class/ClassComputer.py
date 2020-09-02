@@ -12,6 +12,7 @@ class Computer:
 comp1 = Computer('i5', '8GB')
 comp2 = Computer('i7', '16GB')
 print(type(comp1))
+
 comp1.config()
 # comp2.config()
 Computer.config(comp2)
