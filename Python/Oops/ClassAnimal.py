@@ -11,6 +11,13 @@ class Dog(Animal):
         print("Dog can bark!")
 
 
+class Cat(Animal):
+
+    @staticmethod
+    def meown(self):
+        print("Cat can meown")
+
+
 animal_obj = Animal()
 dog_obj = Dog()
 
