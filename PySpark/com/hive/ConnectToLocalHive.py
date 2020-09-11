@@ -41,12 +41,12 @@ if __name__ == "__main__":
          LINES TERMINATED BY "\n" \
          stored as TEXTFILE')
 
+        spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/Movie_1.txt' INTO TABLE movies")
+
     spark.sql("show tables").show()
 
     # print("Movies table data before the data load:")
     # spark.sql("select * from movies").show()
-
-    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/Movie_1.txt' INTO TABLE movies")
 
     spark.sql("select * from movies").show()
     spark.sql("drop table movies")
