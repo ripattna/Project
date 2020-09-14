@@ -1,6 +1,0 @@
-1,wheat,12,1
-2,rice,13,2
-3,wheat,15,1
-4,rice,18,2
-5,wheat,19,1
-6,rice,21,2

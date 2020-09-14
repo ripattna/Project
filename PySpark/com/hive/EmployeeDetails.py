@@ -8,7 +8,7 @@ warehouse_location = abspath('spark-warehouse')
 spark = SparkSession \
     .builder \
     .appName("Python Spark SQL Hive integration example") \
-    .config("demo", warehouse_location) \
+    .config("employee", warehouse_location) \
     .enableHiveSupport() \
     .getOrCreate()
 
@@ -20,52 +20,47 @@ spark.sql("create database if not exists demo")
 spark.catalog.setCurrentDatabase("demo")
 
 table_list = spark.sql("show tables in demo")
-table_name = table_list.filter(table_list.tableName == "product").collect()
+table_name = table_list.filter(table_list.tableName == "employee").collect()
 
 if len(table_name) > 0:
-    print("Table product is present in Demo database")
+    print("Table Employee is present in Demo database")
 else:
     print("Table not found,Creating the table")
-    spark.sql('create table product \
-         (id int,commodity string,price int,version int) \
+    spark.sql('create table employee \
+         (id int,name string,gender string,salary int) \
      row format delimited fields terminated by "," \
      LINES TERMINATED BY "\n" \
      stored as TEXTFILE')
 
-    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/text/Product.txt' INTO TABLE product")
+    spark.sql("LOAD DATA LOCAL INPATH '/C:/Project/Files/Input/text/Employee.txt' INTO TABLE employee")
 
-# spark.sql("show tables").show()
+spark.sql("show tables").show()
 
-# spark.sql("select * from product").show()
+spark.sql("select * from employee").show()
+# spark.sql("drop table employee")
 
-
+""""
 spark.sql("select * from"
-          "(select *,row_number() over (partition by commodity,version ORDER BY price desc) rn from product)v"
+          "(select *,row_number() over (partition by commodity,version order by price desc) rn from test)v"
           " where rn=1").show()
 
 spark.sql("select * from"
-          "(select *,row_number() over (partition by commodity ORDER BY price desc) rn from product)v"
+          "(select *,row_number() over (partition by commodity order by price desc) rn from test)v"
           " where rn=1").show()
-
-spark.sql("select * from"
-          "(SELECT *,DENSE_RANK() OVER (partition by commodity ORDER BY price DESC)AS dn from product)v"
-          " where dn=1").show()
-
-spark.sql("WITH Result AS"
-          "(SELECT *,DENSE_RANK() OVER (partition by commodity ORDER BY price DESC)AS Price_Rank FROM product)"
-          "SELECT * FROM Result WHERE Price_Rank = 1").show()
 
 spark.sql("SELECT id,commodity,price,version,"
           "rank() over (order by price desc) as rank,"
           "dense_rank() over (order by price desc) as denserank "
-          "from product").show()
+          "from test").show()
 
 spark.sql("SELECT id,commodity,price,version,"
           "rank() over (partition by commodity order by price desc) as rank,"
           "dense_rank() over (partition by commodity order by price desc) as denserank "
-          "from product").show()
+          "from test").show()
 
-
-# spark.sql("drop table if exists product")
-
+spark.sql("WITH Result AS"
+          "(SELECT price,DENSE_RANK() OVER (partition by version ORDER BY price DESC)AS Price_Rank FROM Test)"
+          "SELECT * FROM Result WHERE Price_Rank = 1").show()
+"""
+# spark.sql("drop table if exists test")
 

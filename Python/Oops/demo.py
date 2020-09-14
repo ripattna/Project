@@ -1,15 +1,9 @@
-class Dem1:
-
-    @staticmethod
-    def main():
-        print("Hello")
-        print("Welcome user!")
-
-
-Dem1.main()
+def main():
+    print("Hello")
+    print("Welcome user!")
 
 
 if __name__ == "__main__":
-
+    main()
 
 

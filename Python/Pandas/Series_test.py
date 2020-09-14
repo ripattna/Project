@@ -6,3 +6,4 @@ print(series1)
 series1 = pd.Series(data, index=['a', 'b', 'c', 'd'])
 print("##############")
 print(series1)
+
