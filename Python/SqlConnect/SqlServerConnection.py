@@ -22,4 +22,5 @@ my_cursor = cnxn.cursor()
 my_cursor.execute('select * from Persons')
 
 for row in my_cursor:
-    print(row)
+    # print("Row value", row)
+    print('row = %r' % row)
