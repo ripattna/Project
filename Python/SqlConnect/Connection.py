@@ -7,6 +7,7 @@ import csv
 import sys
 import time
 
+
 def myConcat(*cols):
     concat_columns = []
     for c in cols[:-1]:
@@ -15,13 +16,14 @@ def myConcat(*cols):
     concat_columns.append(F.coalesce(cols[-1], F.lit("*")))
     return F.concat(*concat_columns)
 
-sc=SparkContext(appName="Hive_Connect")
+
+sc = SparkContext(appName="Hive_Connect")
 sqlContext = HiveContext(sc)
-sqlContext.setConf('spark.sql.shuffle.partitions','50')
+sqlContext.setConf('spark.sql.shuffle.partitions', '50')
 
 try:
-        df = df_text = None
-        query1 = """
+    df = df_text = None
+    query1 = """
                      SELECT
                         ts_r,
                         trx_date,
@@ -37,12 +39,14 @@ try:
                         ) ranked_usage_ocs_chg
                     WHERE ranked_usage_ocs_chg.rank=1;
                 """
-        df=sqlContext.sql(query1)
-        #df_text = df.withColumn("combined", myConcat(*df.columns)).select("combined")
-        df.repartition(1).rdd.map(lambda x: ",".join(map(str, x))).saveAsTextFile('hdfs://nameservice1/user/13010840/qtspark_lrf/19GPRS_1')
-        #df_text.write.format("text").option("header", "false").mode("append").save('hdfs://nameservice1/user/13010840/qtspark_lrf')
-        #df.repartition(1000).write.option("header", "false").mode("append").csv("hdfs://nameservice1/user/13010840/qtspark_lrf")
+    df = sqlContext.sql(query1)
+    # df_text = df.withColumn("combined", myConcat(*df.columns)).select("combined")
+    df.repartition(1).rdd.map(lambda x: ",".join(map(str, x))).saveAsTextFile(
+        'hdfs://nameservice1/user/13010840/qtspark_lrf/19GPRS_1')
+    # df_text.write.format("text").option("header", "false").mode("append").save(
+    # 'hdfs://nameservice1/user/13010840/qtspark_lrf') df.repartition(1000).write.option("header", "false").mode(
+    # "append").csv("hdfs://nameservice1/user/13010840/qtspark_lrf")
 except Exception as e:
-        print("Exception:{0}".format(e))
+    print("Exception:{0}".format(e))
 
 sc.stop()
