@@ -5,6 +5,7 @@ import numpy as np
 data = [1, 2, 3, 4, 5]
 df = pd.DataFrame(data)
 print(df)
+print("The type of df:", type(df))
 
 # Creating a DataFrame using dictionary
 dictionary = {'fruit': ['apple', 'banana', 'mango'], 'count': [10, 20, 15]}

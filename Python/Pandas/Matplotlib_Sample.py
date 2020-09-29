@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pylab as plt
+
 cars = pd.read_csv("C:\\Project\\Files\\Input\\csv\\cars.csv")
 # Rename the column of "Unnamed" to "model"
-cars = cars.rename(columns={'Unnamed: 0':'model'})
+cars = cars.rename(columns={'Unnamed: 0': 'model'})
 # print(cars.describe())
 print(cars.head())
 #########################

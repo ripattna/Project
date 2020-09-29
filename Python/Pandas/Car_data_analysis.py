@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib
 import matplotlib.pylab as plt
+
 # Read dataset and store into DataFrame
 cars = pd.read_csv("C:\\Project\\Files\\Input\\csv\\cars.csv")
 '''Printing the car data set

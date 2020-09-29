@@ -5,6 +5,10 @@ print("The Numpy Array:\n", x)
 print("Numpy Array shape:", x.shape)
 print("Numpy Array size:", x.size)
 print("Data Type:", x.dtype)
+
+print("\n#################################\n")
+
+
 # Creating an Numpy Array with filled zero.
 # Return a new array of given shape and type, filled with zeros.
 a = np.zeros((3, 4))
