@@ -11,7 +11,7 @@ print("The type of df:", type(df))
 dictionary = {'fruit': ['apple', 'banana', 'mango'], 'count': [10, 20, 15]}
 df_new = pd.DataFrame(dictionary)
 print(df_new)
-
+ 
 # Creating a DataFrame using series
 series = pd.Series([6, 12], index=['a', 'b'])
 df_new1 = pd.DataFrame(series)
