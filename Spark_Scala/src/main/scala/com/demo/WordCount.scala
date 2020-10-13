@@ -19,10 +19,15 @@ object WordCount {
     Logger.getLogger("akka").setLevel(Level.ERROR)
     sc.setLogLevel("ERROR")
 
+    // Reading the text file
     val readRDD = sc.textFile("C:\\Project\\Files\\Input\\text\\Input.txt")
-    val countRDD = readRDD.flatMap(line => line.split(" ")).
-                  map(word => (word,1)).reduceByKey(_+_)
-    println("The work count is:" + countRDD.count())
-   // countRDD.saveAsTextFile("C:\\Project\\Files\\Output\\New1")
+
+    val countRDD = readRDD.flatMap(line => line.split(" ")).map(word => (word,1)).reduceByKey(_+_)
+
+    println("The word count is:" + countRDD.count())
+
+    // Saving the output file
+   // countRDD.saveAsTextFile("C:\\Project\\Files\\Output\\WordCount_Results")
+
   }
 }

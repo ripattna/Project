@@ -10,18 +10,14 @@ object Csv_Operation {
       .master("local[1]")
       .getOrCreate()
 
-    //Creating log level
-    import org.apache.log4j._
-    Logger.getLogger("org").setLevel(Level.ERROR)
-    Logger.getLogger("akka").setLevel(Level.ERROR)
+    // Creating log level
+    spark.sparkContext.setLogLevel("WARN")
 
     val path ="C:/Project/Files/Input/csv/Sample.csv"
-    val df = spark.read
-      .option("header","true")
-      .csv(path)
+    val df = spark.read.option("header","true").csv(path)
+    // df.take(10).foreach(println)
 
     df.printSchema()
-
     // df.show()
 
     // df.createGlobalTempView("table")

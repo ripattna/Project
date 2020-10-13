@@ -46,7 +46,7 @@ print("Select the first 7 records from mpg to qsec column:'\n'",cars.loc[:7,"mpg
 # print("Print before the changes'\n'", cars.am)
 # cars['am']=1
 # print("Print after changes '\n'",cars.am)
-# Double up the value in 'am' using lamda fxn
+# Double up the value in 'am' using lambda fxn
 # f=lambda x: x*2
 # cars['2am']=cars['am'].apply(f)
 # print(cars['2am'])
