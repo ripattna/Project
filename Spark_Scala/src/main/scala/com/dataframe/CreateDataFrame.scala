@@ -23,8 +23,8 @@ object CreateDataFrame {
     //val dfFromRDD1 = rdd.toDF
     val dfFromRDD1 = rdd.toDF("language", "users_count")
 
-    println("##########Creating Dataframe from RDD:########################")
-    println("Creating dataframe from RDD using toDF:")
+    println("##########Creating DataFrame from RDD:########################")
+    println("Creating DataFrame from RDD using toDF:")
     dfFromRDD1.printSchema()
     dfFromRDD1.show()
 
@@ -32,7 +32,7 @@ object CreateDataFrame {
     val columns = Seq("language", "users_count")
     val dfFromRDD2 = spark.createDataFrame(rdd).toDF(columns: _*)
 
-    println("Creating dataframe from RDD using createDataFrame:")
+    println("Creating DataFrame from RDD using createDataFrame:")
     dfFromRDD2.printSchema()
     dfFromRDD2.show()
 
