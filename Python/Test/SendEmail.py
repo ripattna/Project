@@ -8,7 +8,7 @@ sent_to_email = '123rissan@gmail.com'
 subject = 'Test Email'
 message = 'This is a sample message'
 
-msg=MIMEMultipart()
+msg = MIMEMultipart()
 msg['From'] = email
 msg['To'] = sent_to_email
 msg.attach(MIMEText(message, 'plain'))
