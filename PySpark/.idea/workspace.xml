@@ -21,44 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="51eb8f5e-a5a9-4d64-9c79-93e199145025" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/PySpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/csv/olympics_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/csv/olympics_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/olympic/olympics_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Files/Input/text/Sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Files/Input/text/Sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/Interview_Asked_Sap.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Interview_Asked/SystemLock_Automation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/.ipynb_checkpoints/Bar Chat-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/.ipynb_checkpoints/Scatter Plot-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/.ipynb_checkpoints/Scatter Plot-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Bar Chat.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Box Plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Box Plot.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Scatter Plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Scatter Plot.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jupyter_Notebook/Matplotlib/Scatter_Plot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ConnectToLocalHive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/hive/ProductDetails.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/hive/ProductDetails.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/active.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/dataframe/Csv_Operation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/dataframe/Csv_Operation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/CreateEmptyRDD.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/CreateEmptyRDD.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/Header_Footer_Removal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/rdd/Header_Footer_Removal.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/spark_usecase/OlympicDataAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/spark_usecase/OlympicDataAnalysis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/spark_usecase/OlympicDataAnalysisUseCase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/src/main/scala/com/spark_usecase/OlympicDataAnalysisUseCase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/dataframe/Csv_Operation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/dataframe/Csv_Operation$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/CreateEmptyRDD$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/CreateEmptyRDD$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$$anonfun$main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/rdd/Header_Footer_Removal$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysis$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysis$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysisUseCase$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysisUseCase$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysisUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/scala-2.11/classes/com/spark_usecase/OlympicDataAnalysisUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/checkBuildSources/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark_Scala/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.11/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
