@@ -36,3 +36,5 @@ CSStudent.stream = 'mech'
 
 print(a.stream)  # prints 'ece'
 print(b.stream)  # prints 'mech'
+
+
