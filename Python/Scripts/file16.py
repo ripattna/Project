@@ -1,0 +1,5 @@
+fp=open('emp.txt','r+')
+fp.write('end of python classes')
+fp.seek(0,0)
+print fp.read()
+fp.close()
