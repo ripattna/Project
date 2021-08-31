@@ -14,8 +14,7 @@ class Employee:
 
     @property
     def fullname(self):
-        return '{}.{}'.format(self.first, self.last)
+        return '{} {}'.format(self.first, self.last)
 
-    @property
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amount)
