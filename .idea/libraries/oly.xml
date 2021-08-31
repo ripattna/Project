@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="oly">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Spark_Scala/target/scala-2.11/oly.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
