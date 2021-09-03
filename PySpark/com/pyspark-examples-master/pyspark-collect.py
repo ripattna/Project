@@ -26,5 +26,5 @@ dataCollect2 = deptDF.select("dept_name").collect()
 print(dataCollect2)
 
 for row in dataCollect:
-    print(row['dept_name'] + "," +str(row['dept_id']))
+    print(row['dept_name'] + "," + str(row['dept_id']))
 

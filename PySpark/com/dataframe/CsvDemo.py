@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 
-class Csv_demo:
+class CsvDemo:
     @staticmethod
     def csv_test():
         try:
@@ -27,6 +27,6 @@ class Csv_demo:
 
 
 if __name__ == "__main__":
-    Csv_demo.csv_test()
+    CsvDemo.csv_test()
 
 

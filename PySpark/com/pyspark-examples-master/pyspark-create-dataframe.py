@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Created on Sat Jan 11 19:38:27 2020
 
 @author: sparkbyexamples.com
-'''
+"""
 
 import pyspark
 from pyspark.sql import SparkSession, Row
@@ -31,3 +31,4 @@ dfFromData2.printSchema()
 rowData = map(lambda x: Row(*x), data) 
 dfFromData3 = spark.createDataFrame(rowData,columns)
 dfFromData3.printSchema()
+
