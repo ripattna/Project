@@ -1,4 +1,4 @@
-from pyspark.sql.types import ArrayType, StructField, StructType, StringType, IntegerType
+from pyspark.sql.types import StructField, StructType, StringType, IntegerType
 from pyspark.sql import SparkSession
 
 
