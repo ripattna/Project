@@ -25,10 +25,10 @@ class DataFrame_Coding_Problem:
 
             df_emp_cnt = df_emp.select("Dept").groupBy("Dept").count()
 
-            df_emp_deptheadcount = df_emp.join(df_emp_cnt, df_emp.Dept == df_emp_cnt.Dept) \
+            df_emp_headcount = df_emp.join(df_emp_cnt, df_emp.Dept == df_emp_cnt.Dept) \
                 .withColumnRenamed("count", "DeptHeadCount").drop(df_emp_cnt.Dept) \
 
-            df_emp_deptheadcount.createOrReplaceTempView("records")
+            df_emp_headcount.createOrReplaceTempView("records")
 
             spark.sql("select * from records order by DeptHeadCount desc").show()
 
