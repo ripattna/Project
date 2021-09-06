@@ -1,7 +1,5 @@
 # Configure spark variables
 from pyspark.context import SparkContext
-from pyspark.sql.context import SQLContext
-from pyspark.sql.session import SparkSession
 
 from pyspark import SparkConf
 
