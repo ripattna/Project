@@ -1,3 +1,4 @@
 import demo
 
-print("Its time to calculate!")
+print("It's time to calculate!")
+
