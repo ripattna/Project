@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.types import ArrayType, StructField, StructType, StringType, IntegerType
+from pyspark.sql.types import StructField, StructType, StringType, IntegerType
 
 appName = "PySpark Example - Python Array/List to Spark Data Frame"
 master = "local"
