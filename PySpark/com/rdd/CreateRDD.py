@@ -28,7 +28,7 @@ class CreteRDD:
             sc.stop()
 
         except ValueError:
-            print("Enable to create the RDD!")
+            print("Unable to create the RDD!")
 
 
 if __name__ == "__main__":

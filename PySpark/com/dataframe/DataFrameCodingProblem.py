@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import StructField, StructType, StringType
 
 
-class DataFrame_Coding_Problem:
+class DataFrameCodingProblem:
     @staticmethod
     def csv_test():
         try:
@@ -37,5 +37,5 @@ class DataFrame_Coding_Problem:
 
 
 if __name__ == "__main__":
-    DataFrame_Coding_Problem.csv_test()
+    DataFrameCodingProblem.csv_test()
 

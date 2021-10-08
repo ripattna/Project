@@ -2,7 +2,7 @@ from pyspark.sql.types import StructField, StructType, StringType, IntegerType
 from pyspark.sql import SparkSession
 
 
-class DataFrame_Test:
+class DataFrameTest:
     @staticmethod
     def data_frame_function():
         try:
@@ -31,4 +31,4 @@ class DataFrame_Test:
 
 
 if __name__ == "__main__":
-    DataFrame_Test.data_frame_function()
+    DataFrameTest.data_frame_function()

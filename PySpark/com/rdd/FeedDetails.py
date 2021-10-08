@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 
-class Feed_Detail:
+class FeedDetail:
     @staticmethod
     def feed_info():
 
@@ -37,6 +37,6 @@ class Feed_Detail:
 
 
 if __name__ == "__main__":
-    Feed_Detail.feed_info()
+    FeedDetail.feed_info()
 
 
