@@ -19,9 +19,10 @@ class WriteToHive:
             print("The schema is:", df.printSchema())
 
             # Save df to a new table in Hive
-            df.write.mode("overwrite").saveAsTable("test_db.test_table2")
+            # spark.sql("create database test_db")
+            df.write.mode("overwrite").saveAsTable("test_table2")
             # Show the results using SELECT
-            spark.sql("select * from test_db.test_table2").show()
+            spark.sql("select * from test_table2").show()
 
 
 
