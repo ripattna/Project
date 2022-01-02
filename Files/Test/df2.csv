@@ -1,0 +1,8 @@
+City  ,Product,Date,Sale,Exp,Wastage
+city 1,prod 1 ,9/29/2017,358,975,193
+city 1,prod 2 ,8/25/2017,50,687,201
+city 1,prod 3 ,9/9/2017,230,430,160
+city 1,prod 4 ,9/27/2017,350,90,190
+city 2,prod 2 ,8/24/2017,50,687,201
+city 3,prod 3 ,9/8/2017,236,431,169
+city 3,prod 4 ,9/18/2017,230,431,169
